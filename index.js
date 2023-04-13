@@ -14,5 +14,6 @@ pool.query('SELECT * FROM test_table', (err, res) => {
 		console.error(err);
 		return;
 	}
+	console.log('test');
 	console.log(res.rows);
 });
